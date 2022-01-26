@@ -1,0 +1,116 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{ font-family: 'Poppins', sans-serif;}
+
+
+
+
+/* first-product */
+.theme{
+    text-align: center;
+    font-size: 4em;
+}
+.first-product{
+      display: flex;
+      justify-content: space-evenly;
+}
+.first-product-info{
+    width: 582px;
+height: 270px;
+}
+.section-title{
+    margin-top: 146px;
+    font-size: 52px;
+}
+.product-detail{
+    font-size: 20px;
+}
+.first-button{
+    width: 196px;
+height: 44px;
+border-radius: 41px;
+background: #E02C6D;
+color: aliceblue;
+font-size: 1em;
+margin-top: 16px;
+}
+.first-image{
+    width: 440px;
+    height: 414px;
+    margin-top: 120px;
+}
+/* --------------"popular-collection style----------------------------- */
+.blogs{ 
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+  
+     grid-row-gap: 16px;    
+}  
+
+.blog{
+    display: flex; 
+    justify-content: center;
+    width: 329px;
+height: 476px; 
+}
+  .blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+  }
+  .blog-info{
+    margin-left:  16px; 
+} 
+
+.blog-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+.blog-authour {
+    font-size: 16px;
+    
+}
+.filled{
+    color: orange;
+}
+.empty{
+    color: silver;
+}
+    .button-style{
+     
+        float: right;
+        width: 200px;
+height: 40px;
+color:#E02C6D;
+float: inline-end;
+font-size: 1.5em;
+margin-left: 50px;
+margin-top: 0;
+
+    } 
+    footer{
+        background-color: black;
+        margin-top:100px;
+        text-align: center;
+        height: 30vh;
+       padding-top: 100px;
+    }
+    footer h1{
+        color: white;
+        margin: 0;
+    }
+    footer p{
+        color: white;
+        
+    }
+    .font-awsome{
+
+        color: white;
+    }
+    .icon{
+        margin-left: 10px;
+    }  
+
+
+
+    
